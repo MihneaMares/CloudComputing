@@ -21,9 +21,9 @@ export default function InsertPage() {
 	}
 
 	return (
-		<section className="bg-white dark:bg-gray-900">
+		<section className="bg-gray-200">
 			<div className="container px-6 py-10 mx-auto">
-				<h1 className="w-[500px] mx-auto text-center text-6xl">Wish Books Hub</h1>
+				<h1 className="mx-auto text-center text-6xl text-purple-500">Wish Books Hub</h1>
 
 				<form>
 					<div className="mb-6">
@@ -46,10 +46,13 @@ export default function InsertPage() {
 								className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
 								placeholder="Release year" required/>
 					</div>
-					<button type="submit"
-					        onClick={ insertRecord }
-					        className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit
-					</button>
+					<div className="flex justify-center mt-4">
+						<button type="submit"
+								onClick={ insertRecord }
+								className="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 shadow-lg shadow-purple-500/50 dark:shadow-lg dark:shadow-purple-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Submit
+						</button>
+					</div>
+					
 				</form>
 			</div>
 		</section>

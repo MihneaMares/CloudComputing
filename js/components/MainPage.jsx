@@ -47,10 +47,10 @@ export default function MainPage() {
 							<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 								{record.title}
 							</h5>
-							<p className="font-normal text-gray-700 text-gray-400">
+							<p className="font-normal text-white-700 text-white-400">
 								Author: {record.author}
 							</p>
-                            <p className="font-normal text-gray-700 text-gray-400">
+                            <p className="font-normal text-white-700 text-white-400">
 								Release year: {record.release_date}
 							</p>
 							<div className={"flex justify-center mt-4"}>
