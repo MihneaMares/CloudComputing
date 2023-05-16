@@ -1,6 +1,6 @@
 Wish Book Hub
 
-Link prezentare -> 
+Link prezentare -> https://youtu.be/-Sc0yy5qpL0
 Link publicare -> https://cloud-computing-qono0jifs-mihneamares.vercel.app/
 
 1. Introducere
